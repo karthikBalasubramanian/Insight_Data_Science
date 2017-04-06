@@ -1,4 +1,5 @@
 # Table of Contents
+0. Additional libraries Used
 1. [Challenge Summary](README.md#challenge-summary)
 2. [Details of Implementation](README.md#details-of-implementation)
 3. [Download Data](README.md#download-data)
@@ -9,6 +10,26 @@
 8. [Instructions to submit your solution](README.md#instructions-to-submit-your-solution)
 9. [FAQ](README.md#faq)
 
+# Additional libraries used
+
+I have used 4 libraries
+1. pandas
+2. Numpy
+3. sys
+4. os
+
+All the feature implementation are detailed with documentation in **process_log.py**
+
+
+I could not pass one test case given in the test suite (Feature 3)
+I have implemented the rolling window problem with an assumption that the window is at least 60 minutes long.
+If it is lesser than the 60 minutes, my code would fail.
+I came to this conclusion because log files are generally
+considered for a longer time period.
+
+All other implementations are perfected and tested with multiple scenarios.
+
+Thanks for the opportunity.
 
 # Challenge Summary
 
@@ -16,8 +37,12 @@ Picture yourself as a backend engineer for a NASA fan website that generates a l
 
 The desired features are described below: 
 
+
+
 ### Feature 1: 
 List the top 10 most active host/IP addresses that have accessed the site.
+
+
 
 ### Feature 2: 
 Identify the 10 resources that consume the most bandwidth on the site
